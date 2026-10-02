@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+pymongo
+sentence-transformers
+pypdf
+python-docx
