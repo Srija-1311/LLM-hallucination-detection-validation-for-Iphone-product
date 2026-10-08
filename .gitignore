@@ -1,1 +1,9 @@
 .env
+.data/
+_arch_extract.txt
+_data_preview.txt
+_fit_report.txt
+__pycache__/
+*.pyc
+.venv/
+venv/

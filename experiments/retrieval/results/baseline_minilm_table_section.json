@@ -1,0 +1,130 @@
+{
+  "model": "all-MiniLM-L6-v2",
+  "chunk_strategy": "table_section",
+  "top_k": 5,
+  "queries": 35,
+  "corpus_chunks": 1880,
+  "recall_at_1": 0.5714285714285714,
+  "recall_at_3": 0.7714285714285715,
+  "recall_at_5": 0.7714285714285715,
+  "mrr": 0.6714285714285714,
+  "ndcg_at_5": 0.697614522142863,
+  "failures": [
+    {
+      "query_id": "Q003",
+      "query": "What manufacturing process node is specified for the processor?",
+      "expected": [
+        "PSP-IP17-PRC-001"
+      ],
+      "retrieved": [
+        "MFG-IP17-WS-002",
+        "MFG-IP17-WS-001",
+        "MFG-IP17-PC-001",
+        "MFG-IP17-LS-002",
+        "MFG-IP17-IN-002"
+      ]
+    },
+    {
+      "query_id": "Q018",
+      "query": "What is checked during incoming quality inspection?",
+      "expected": [
+        "INT-IP17-QAC-001"
+      ],
+      "retrieved": [
+        "QIP-IP17-FQI-001",
+        "QIP-IP17-IPQ-001",
+        "QIP-IP17-DEF-001",
+        "QIP-IP17-REL-001",
+        "QIP-IP17-PAP-001"
+      ]
+    },
+    {
+      "query_id": "Q019",
+      "query": "What AQL requirement is used for incoming inspection?",
+      "expected": [
+        "INT-IP17-QAC-001"
+      ],
+      "retrieved": [
+        "QIP-IP17-IPQ-001",
+        "QIP-IP17-IPQ-002",
+        "QIP-IP17-IQC-002",
+        "QIP-IP17-IQC-001",
+        "QIP-IP17-FQI-002"
+      ]
+    },
+    {
+      "query_id": "Q021",
+      "query": "What activities are handled by the manufacturing department?",
+      "expected": [
+        "INT-IP17-MFG-002",
+        "INT-IP17-MFG-003",
+        "INT-IP17-MFG-001"
+      ],
+      "retrieved": [
+        "MFG-IP17-PC-002",
+        "PROC-IP17-SUP-001",
+        "PROC-IP17-SUP-003",
+        "PROC-IP17-SUP-004",
+        "PROC-IP17-SUP-002"
+      ]
+    },
+    {
+      "query_id": "Q022",
+      "query": "What procedure governs manufacturing operations?",
+      "expected": [
+        "INT-IP17-MFG-003"
+      ],
+      "retrieved": [
+        "MFG-IP17-WS-002",
+        "MFG-IP17-WS-001",
+        "MFG-IP17-RW-002",
+        "MFG-IP17-PC-002",
+        "MFG-IP17-ASM-002"
+      ]
+    },
+    {
+      "query_id": "Q023",
+      "query": "What is the procurement process for suppliers?",
+      "expected": [
+        "INT-IP17-PRC-002",
+        "INT-IP17-PRC-001",
+        "INT-IP17-PRC-003"
+      ],
+      "retrieved": [
+        "PROC-IP17-PO-001",
+        "PROC-IP17-SUP-001",
+        "PROC-IP17-SUP-004",
+        "PROC-IP17-SUP-003",
+        "PROC-IP17-CHG-002"
+      ]
+    },
+    {
+      "query_id": "Q024",
+      "query": "How is a supplier qualified?",
+      "expected": [
+        "INT-IP17-PRC-001"
+      ],
+      "retrieved": [
+        "PROC-IP17-PO-001",
+        "PROC-IP17-PO-002",
+        "PROC-IP17-CHG-002",
+        "PROC-IP17-SUP-002",
+        "PROC-IP17-SUP-001"
+      ]
+    },
+    {
+      "query_id": "Q030",
+      "query": "How are suppliers qualified before onboarding?",
+      "expected": [
+        "PROC-IP17-SUP-001"
+      ],
+      "retrieved": [
+        "PROC-IP17-PO-002",
+        "PROC-IP17-PO-001",
+        "PROC-IP17-CHG-002",
+        "PROC-IP17-CHG-001",
+        "PROC-IP17-SUP-004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+[
+  {
+    "query_id": "Q001",
+    "query": "What processor does the iPhone 17 use?",
+    "expected_document_ids": [
+      "PSP-IP17-PRC-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "direct",
+    "topic": "processor"
+  },
+  {
+    "query_id": "Q002",
+    "query": "Which chip family is specified for the iPhone 17?",
+    "expected_document_ids": [
+      "PSP-IP17-PRC-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "paraphrase",
+    "topic": "processor"
+  },
+  {
+    "query_id": "Q003",
+    "query": "What manufacturing process node is specified for the processor?",
+    "expected_document_ids": [
+      "PSP-IP17-PRC-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "natural_language",
+    "topic": "processor"
+  },
+  {
+    "query_id": "Q004",
+    "query": "What is the maximum CPU frequency?",
+    "expected_document_ids": [
+      "PSP-IP17-PRC-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "attribute",
+    "topic": "processor"
+  },
+  {
+    "query_id": "Q005",
+    "query": "How many GPU cores are specified for the processor?",
+    "expected_document_ids": [
+      "PSP-IP17-PRC-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "natural_language",
+    "topic": "processor"
+  },
+
+  {
+    "query_id": "Q006",
+    "query": "How much battery capacity does the iPhone 17 have?",
+    "expected_document_ids": [
+      "PSP-IP17-BAT-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "direct",
+    "topic": "battery"
+  },
+  {
+    "query_id": "Q007",
+    "query": "What is the nominal battery capacity in mAh?",
+    "expected_document_ids": [
+      "PSP-IP17-BAT-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "numeric",
+    "topic": "battery"
+  },
+  {
+    "query_id": "Q008",
+    "query": "Which battery chemistry is specified?",
+    "expected_document_ids": [
+      "PSP-IP17-BAT-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "attribute",
+    "topic": "battery"
+  },
+  {
+    "query_id": "Q009",
+    "query": "How much power does wired charging support?",
+    "expected_document_ids": [
+      "PSP-IP17-BAT-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "paraphrase",
+    "topic": "battery"
+  },
+
+  {
+    "query_id": "Q010",
+    "query": "What is the iPhone 17 display refresh rate?",
+    "expected_document_ids": [
+      "PSP-IP17-DSP-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "direct",
+    "topic": "display"
+  },
+  {
+    "query_id": "Q011",
+    "query": "How large is the OLED display?",
+    "expected_document_ids": [
+      "PSP-IP17-DSP-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "paraphrase",
+    "topic": "display"
+  },
+  {
+    "query_id": "Q012",
+    "query": "What resolution does the display have?",
+    "expected_document_ids": [
+      "PSP-IP17-DSP-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "attribute",
+    "topic": "display"
+  },
+  {
+    "query_id": "Q013",
+    "query": "What is the peak brightness of the display?",
+    "expected_document_ids": [
+      "PSP-IP17-DSP-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "numeric",
+    "topic": "display"
+  },
+
+  {
+    "query_id": "Q014",
+    "query": "How much memory does the iPhone 17 have?",
+    "expected_document_ids": [
+      "PSP-IP17-MEM-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "direct",
+    "topic": "memory"
+  },
+  {
+    "query_id": "Q015",
+    "query": "What type of memory is used?",
+    "expected_document_ids": [
+      "PSP-IP17-MEM-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "attribute",
+    "topic": "memory"
+  },
+
+  {
+    "query_id": "Q016",
+    "query": "What camera resolution is specified for the main camera?",
+    "expected_document_ids": [
+      "PSP-IP17-CAM-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "numeric",
+    "topic": "camera"
+  },
+  {
+    "query_id": "Q017",
+    "query": "What Wi-Fi standard does the product support?",
+    "expected_document_ids": [
+      "PSP-IP17-CON-001"
+    ],
+    "expected_bucket": "product_specs",
+    "query_type": "attribute",
+    "topic": "connectivity"
+  },
+
+  {
+    "query_id": "Q018",
+    "query": "What is checked during incoming quality inspection?",
+    "expected_document_ids": [
+      "INT-IP17-QAC-001"
+    ],
+    "expected_bucket": "internal_departments",
+    "query_type": "procedure",
+    "topic": "quality_assurance"
+  },
+  {
+    "query_id": "Q019",
+    "query": "What AQL requirement is used for incoming inspection?",
+    "expected_document_ids": [
+      "INT-IP17-QAC-001"
+    ],
+    "expected_bucket": "internal_departments",
+    "query_type": "technical",
+    "topic": "quality_assurance"
+  },
+  {
+    "query_id": "Q020",
+    "query": "What defect allowance is specified by QA/QC?",
+    "expected_document_ids": [
+      "INT-IP17-QAC-001"
+    ],
+    "expected_bucket": "internal_departments",
+    "query_type": "department_specific",
+    "topic": "quality_assurance"
+  },
+
+  {
+    "query_id": "Q021",
+    "query": "What activities are handled by the manufacturing department?",
+    "expected_document_ids": [
+      "INT-IP17-MFG-001",
+      "INT-IP17-MFG-002",
+      "INT-IP17-MFG-003"
+    ],
+    "expected_bucket": "internal_departments",
+    "query_type": "department_specific",
+    "topic": "assembly_production"
+  },
+  {
+    "query_id": "Q022",
+    "query": "What procedure governs manufacturing operations?",
+    "expected_document_ids": [
+      "INT-IP17-MFG-003"
+    ],
+    "expected_bucket": "internal_departments",
+    "query_type": "procedure",
+    "topic": "assembly_production"
+  },
+  {
+    "query_id": "Q023",
+    "query": "What is the procurement process for suppliers?",
+    "expected_document_ids": [
+      "INT-IP17-PRC-001",
+      "INT-IP17-PRC-002",
+      "INT-IP17-PRC-003"
+    ],
+    "expected_bucket": "internal_departments",
+    "query_type": "department_specific",
+    "topic": "supplier_procurement"
+  },
+  {
+    "query_id": "Q024",
+    "query": "How is a supplier qualified?",
+    "expected_document_ids": [
+      "INT-IP17-PRC-001"
+    ],
+    "expected_bucket": "internal_departments",
+    "query_type": "procedure",
+    "topic": "supplier_procurement"
+  },
+
+  {
+    "query_id": "Q025",
+    "query": "What does the quality management policy cover?",
+    "expected_document_ids": [
+      "POL-IP17-QA-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "policy",
+    "topic": "quality"
+  },
+  {
+    "query_id": "Q026",
+    "query": "What controls are defined for manufacturing processes?",
+    "expected_document_ids": [
+      "POL-IP17-MFG-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "policy",
+    "topic": "manufacturing"
+  },
+  {
+    "query_id": "Q027",
+    "query": "What is the policy for engineering changes?",
+    "expected_document_ids": [
+      "POL-IP17-EC-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "policy",
+    "topic": "engineering_change"
+  },
+  {
+    "query_id": "Q028",
+    "query": "How are controlled documents managed?",
+    "expected_document_ids": [
+      "POL-IP17-DOC-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "policy",
+    "topic": "document_control"
+  },
+  {
+    "query_id": "Q029",
+    "query": "What is the procedure for engineering change requests?",
+    "expected_document_ids": [
+      "ENG-IP17-EC-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "procedure",
+    "topic": "engineering_change"
+  },
+  {
+    "query_id": "Q030",
+    "query": "How are suppliers qualified before onboarding?",
+    "expected_document_ids": [
+      "PROC-IP17-SUP-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "procedure",
+    "topic": "supplier_onboarding"
+  },
+  {
+    "query_id": "Q031",
+    "query": "What procedure is used for incoming material acceptance?",
+    "expected_document_ids": [
+      "PROC-IP17-MAT-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "procedure",
+    "topic": "incoming_material"
+  },
+  {
+    "query_id": "Q032",
+    "query": "How is product traceability maintained?",
+    "expected_document_ids": [
+      "CMP-IP17-TRC-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "procedure",
+    "topic": "traceability"
+  },
+  {
+    "query_id": "Q033",
+    "query": "What is the internal audit procedure?",
+    "expected_document_ids": [
+      "CMP-IP17-AUD-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "procedure",
+    "topic": "audit"
+  },
+  {
+    "query_id": "Q034",
+    "query": "How are engineering requirements managed?",
+    "expected_document_ids": [
+      "ENG-IP17-REQ-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "procedure",
+    "topic": "requirements"
+  },
+  {
+    "query_id": "Q035",
+    "query": "How is design review performed?",
+    "expected_document_ids": [
+      "ENG-IP17-DR-001"
+    ],
+    "expected_bucket": "unstructured",
+    "query_type": "procedure",
+    "topic": "design_review"
+  }
+]
